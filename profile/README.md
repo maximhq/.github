@@ -1,36 +1,17 @@
-![image](https://github.com/user-attachments/assets/98158f4d-71b0-42be-b92b-1311220d6a10)
+<img width="1916" height="821" alt="image" src="https://github.com/user-attachments/assets/98c67f40-d01c-4d88-bc97-24ac2f664fc1" />
 
-# Maxim AI
+At Maxim AI, we're building the AI infrastructure for enterprises to route, govern, and secure all their AI traffic.
 
-[Maxim AI](https://getmaxim.ai/) streamlines AI application development and deployment by applying traditional software best practices to non-deterministic AI workflows. Our evaluation and observability tools help teams maintain quality, reliability, and speed throughout the AI application lifecycle.
+AI runs across a company's applications and employee devices. Each model request, tool call, or agent action raises questions: what data is being shared, who has access, and which policies apply? We built Bifrost to give enterprises visibility and control across all AI traffic with the performance and reliability their production workloads require.
 
-You can get started with Maxim AI via our [Platform](https://www.getmaxim.ai) or using our SDKs.
+[Bifrost Gateway](https://www.getmaxim.ai/) routes every model request, tool call, and agent action through shared security and governance controls. Teams can route AI traffic intelligently across multiple models and providers, gain visibility into the AI traffic, control org-wide access and budgets for AI tools and models through their existing identity structures set on tools like Entra and Okta, apply a unified set of security policies and guardrails, and optimize costs.
 
-## Documentation & Guides
+[Bifrost Edge](https://www.getmaxim.ai/edge) extends that protection to employee devices, where AI tools can otherwise operate outside the company's controls. It is a lightweight service that runs on those devices and routes AI traffic from the tools people already use through the Bifrost Gateway, so those tools come under the same policy as everything else.
 
-Visit our documentation and guides to learn more about Maxim AI's features, best practices, and implementation examples.
+This is what closes the shadow AI gap. Desktop chat apps, AI in the browser, coding agents in the terminal and editor, and the MCP servers those tools connect to would otherwise never reach the Gateway, and most organizations have no visibility into them at all. Edge also makes the experience better for the people using those tools. There is one sign-in through the company's existing identity provider, no keys to paste into local configuration files, and no new steps to learn. Only AI traffic is routed, and nothing else on the device is inspected.
 
-[Start here ↗️](https://www.getmaxim.ai/docs/introduction/overview)
+Bifrost runs air-gapped in your infrastructure, with no data, not even telemetry, coming to us. Its Apache 2.0 core is free to run and contribute to; the enterprise tier adds advanced security, identity-based governance, high availability, and support.
 
-## Live Demo
+## Explore Bifrost
 
-Experience Maxim AI in action through our comprehensive platform demo. See how our tools can transform your AI development workflow and help you build more reliable AI applications.
-
-[Watch ▶️](https://drive.google.com/file/d/1-h9AwW2FRM5dZWHyvFS6BLO9chSIDxLD/view)
-
-## Features
-
-- Prompt Engineering and Testing Environment.
-- Prompt CMS with A/B testing support.
-- Agent Simulation and Evaluation Engine.
-- No code IDE for building agents (alpha).
-- Library of Prebuilt evaluators.
-- Powerful and 100% excel compatible multi-modal datasets.
-- Bifrost: a powerful AI gateway, supports eight providers and 6.5k+ models.
-- Observe & evaluate multi-agentic workflows.
-- Create or experiment with code-based or API based tools.
-- Powerful SDKs (Java, Go, Python, JS/TS)
-    - [Go SDK](https://github.com/maximhq/maxim-go)
-    - [Java SDK](https://github.com/maximhq/maxim-java)
-    - [Python SDK](https://www.notion.so/Github-Readme-1ad646e0320d80609f17ea35d969e68b?pvs=21)
-    - [JS/TS SDK](https://www.notion.so/Github-Readme-1ad646e0320d80609f17ea35d969e68b?pvs=21)
+[Quick start](https://github.com/maximhq/bifrost) | [Website](https://www.getmaxim.ai/) | [Documentation](https://docs.getbifrost.ai/) | [Discord](https://discord.gg/exN5KAydbU) | [Enterprise](https://www.getmaxim.ai/enterprise) | [Bifrost LLM Gateway](https://getmaxim.ai/llm-gateway) | [Bifrost MCP Gateway](https://getmaxim.ai/mcp-gateway) | [Bifrost Edge](https://www.getmaxim.ai/edge) | [Changelogs](https://docs.getbifrost.ai/changelogs/)
